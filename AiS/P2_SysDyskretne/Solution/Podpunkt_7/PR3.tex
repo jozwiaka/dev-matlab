@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[T1]{fontenc}
+\title{PD}
+\begin{document}
+\begin{align*}
+    A&=\begin{bmatrix}
+    0&1\\
+    -2.485&4.456
+    \end{bmatrix}\\
+    B&=\begin{bmatrix}
+        0\\1
+    \end{bmatrix}\\
+    C&=\begin{bmatrix}
+        0.0164&0.0181
+    \end{bmatrix}\\
+    D&= 0\\
+    x((k+1)T)&=\begin{bmatrix}
+        0&1\\
+        -2.485&4.456
+        \end{bmatrix}x(kT)+\begin{bmatrix}
+            0\\1
+        \end{bmatrix}u(kT)\\
+    y(kT)&=\begin{bmatrix}
+        0.0164&0.0181
+    \end{bmatrix}x(kT)
+\end{align*}
+\end{document}

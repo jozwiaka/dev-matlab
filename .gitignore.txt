@@ -1,0 +1,36 @@
+# MATLAB/Simulink
+*.mat
+*.mdl
+*.mex*
+*.slx
+*.sld*
+
+# Simulink generated files
+slprj/
+simscape-local-*
+
+# Compiled MATLAB files
+*.p
+*.class
+*.exe
+
+# Temporary files
+*.bak
+*.log
+*.out
+*.tlf
+
+# Simulink cache files
+slprj/_sfprj/
+slprj/_sfprj_mex/
+slprj/simulink.cache
+
+# MATLAB Auto-generated files
+codegen/
+matlabfcn_files/
+
+# Simulink temporary files
+slprj/slprj.log
+slprj/accel_*
+slprj/mex_*
+slprj/codertarget/
